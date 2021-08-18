@@ -12,5 +12,9 @@ class KataReverseWordsTest {
         assertEquals("elbuod  decaps  sdrow", KataReverseWords.reverseWords("double  spaced  words"));
     }
 
+    @Test
+    public void exampleEmptySpacesCases() {
+        assertEquals("   ", KataReverseWords.reverseWords("   "));
+    }
 
 }
